@@ -1,3 +1,4 @@
+//Constants
 const timeAllowed = 75;                                         //Time allowed for the quiz.
 const timeDeduction = 15;                                       //Time deduction if user chooses wrong answer.
 const totalQuestions = 5;                                       //Questions to be asked.
@@ -198,7 +199,7 @@ function removeLocalStorage(){
     //Gets all keys from local storage.
     let keys = Object.keys(localStorage);
 
-    //Loops through all keys and removes them from local storage.
+    //Loops through all keys and removes them from local storgae.
     for (let i = 0; i < keys.length; i++) localStorage.removeItem(keys[i]);
 
     //Gets all direct children elements of content element.
