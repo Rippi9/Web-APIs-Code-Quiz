@@ -30,6 +30,6 @@ The following animation demonstrates the application functionality:
 
 
 # Usage
-To use and view this challenge please use this the following link to access the deployed website: "
+To use and view this challenge please use this the following link to access the deployed website: 
 
 ![Wed-api-demo](/Photo/Web%20api.png)
