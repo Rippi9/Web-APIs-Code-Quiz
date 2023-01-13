@@ -1,0 +1,105 @@
+:root{
+    --voilet-color: rgb(74, 40, 100);
+    --light-voilet-color: rgb(131, 119, 163);
+    --text-white-color: white;
+}
+
+/* Removes all margin and padding, sets the font size and font color to white */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sets the header height and line height. */
+header{
+    height: 5rem;
+    line-height: 2rem;
+}
+
+/* Moves view high score and time remaining texts to either ends of the page. */
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Displays view high score and time remaining texts as inline. */
+header li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+/* Sets the color of view high score. */
+#view-scores{
+    color: var(--voilet-color);
+}
+
+/* Sets the content width on the page. */
+#content{
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 50%;
+}
+
+/* Makes the contect heading bold and sets the font size and margin. */
+#heading{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Sets the line height of initial paragraph in content div. */
+#content p{
+    line-height: 1.5rem;
+}
+
+/* Class that makes the text center justified. */
+.text-center{
+    text-align: center;
+}
+
+/* Sets the style of start button. */
+#start-button{
+
+    display: block;
+    margin: 0.5rem auto 0 auto;
+    background-color: var(--voilet-color);
+    color: var(--text-white-color);
+    padding: 0.2rem 0.5rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+/* Sets the cursor to pointer. */
+.hand{
+    cursor: pointer;
+}
+
+/* Makes the question heading bold and sets font height and margin. */
+.question-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Sets the style for each choice of question. */
+.option{
+    margin-bottom: 0.5rem;
+    background-color: var(--voilet-color);
+    color: var(--text-white-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+}
+
+/* Sets the style for high score text. */
+.highscore{
+    line-height: 1.2rem;
+    padding: 0.3rem 0.5rem;
+}
+
+/* Changes the background of all buttons and options to light voilet when hovered over. */
+.option:hover, #start-button:hover{
+    background-color: var(--light-voilet-color);
+}
