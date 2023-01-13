@@ -26,10 +26,11 @@ The following animation demonstrates the application functionality:
 
 # Mock-Up
 
+The following animation demonstrates the application functionality:
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Photo/04-web-apis-homework-demo.gif)
 
 
 # Usage
-To use and view this challenge please use this the following link to access the deployed website: 
+To use and view this challenge please use this the following link to access the deployed website: https://rippi9.github.io/Web-APIs-Code-Quiz/ 
 
 ![Wed-api-demo](/Photo/Web%20api.png)
